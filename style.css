@@ -1,5 +1,4 @@
 *{
-	---mrg: 600%;
 	---mrgg: 30%;
 	---fntClr: #ffffff;
 	box-sizing:border-box;
@@ -8,8 +7,6 @@ h1{
 	color: var(---fntClr);
 	text-align: center;
 	background-color: #00F;
-	margin-left: var(---mrg);
-	margin-right: var(---mrg);
 }
 #game-container {
     display: flex;
