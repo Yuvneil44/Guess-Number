@@ -1,0 +1,104 @@
+*{
+	---mrg: 45%;
+	---mrgg: 30%;
+	---fntClr: #ffffff;
+	box-sizing:border-box;
+}
+h1{
+	color: var(---fntClr);
+	text-align: center;
+	background-color: #00F;
+	margin-left: var(---mrg);
+	margin-right: var(---mrg);
+}
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+	text-align: center;
+	background-color: #00F;
+	margin-left: var(---mrgg);
+	margin-right: var(---mrgg);
+	font-size: 2em;
+	font-weight: 900;
+	color: var(---fntClr);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+#guessInput{
+	margin-top: 20px;
+}
+#chg{
+	margin-top: 20px;
+	font-weight: bolder;
+	color: #ffffff;
+	background-color: #F00;
+	border: solid;
+	border-style: outset;
+	border-top-color: #CCC;
+	border-left-color: #CCC;
+	border-width: 5px;
+}
+#chg:hover{
+	border-style: inset;
+	border-bottom-color: #CCC;
+	border-right-color: #CCC;
+}
+#chg:active{
+	border-style: outset;
+	border-top-color: #CCC;
+	border-left-color: #CCC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
